@@ -9,6 +9,7 @@ class TestApp(unittest.TestCase):
         self.assertEqual(add(1, 1), 2)
         self.assertEqual(add(1, 4), 5)
         self.assertEqual(add(1, 10), 11)
+        self.assertEqual(add(10, 10), 20)
 
 if __name__ == "__main__":
     unittest.main()
